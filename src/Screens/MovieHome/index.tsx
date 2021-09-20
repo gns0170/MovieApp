@@ -34,7 +34,10 @@ const MovieHome = ({navigation}: Props) => {
                     onPress={() => {
                         logout();
                     }}>
-                        <Icon source={require(`~/Assets/Images/ic_logout.png`)} />
+                        <Icon 
+                            source={require(`~/Assets/Images/ic_logout.png`)}
+                            resizeMode="cover"
+                        />
                 </StyleButton>
             ),
         });
