@@ -21,7 +21,7 @@ const LabelName = Styled.Text`
     color: #FFFFFF;
     font-size: 14px;
     font-weight: bold;
-    texxt-align: center;
+    text-align: center;
 `;
 interface Props {
     cast: Array<ICast>;

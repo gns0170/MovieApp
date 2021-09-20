@@ -64,7 +64,7 @@ const SubCatalogList = ({title, url, onPress}: Props) => {
                             onPress={() => {
                                 onPress((item as IMovie).id);
                             }}>
-                            <CatelogImage
+                            <CatalogImage
                                 source={{uri: (item as IMovie).large_cover_image}}
                                 style={{width: 136, height: 201}}
                             />

@@ -16,7 +16,7 @@ interface Props {
 }
 
 const UserContextProvider = ({children}: Props) => {
-    const [userInfo, setUserInfo] = useState<IUserContext | undefined>(undefined);
+    const [userInfo, setUserInfo] = useState<IUserInfo | undefined>(undefined);
     const [isLoading, setIsLoading] = useState<boolean>(false);
 
     const login = (email: string, password: string): void => {

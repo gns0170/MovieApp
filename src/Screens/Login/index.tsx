@@ -8,7 +8,6 @@ import { UserContext } from '~/Context/User';
 
 import Input from '~/Components/Input';
 import Button from '~/Components/Button';
-import { UserContext } from '~/Context/User';
 
 const Container = Styled.SafeAreaView`
     flex: 1;
@@ -45,12 +44,19 @@ const Login = ({navigation}: Props) => {
     return (
         <Container>
             <FormContainer>
-                <Input styled = {{marginBottom: 16}} placeholder="이메일" />
+                <Input style = {{marginBottom: 16}} placeholder="이메일" />
 
                 <Input
                     style={{marginBottom:16}}
                     placeholder="비밀번호"
                     secureTextEntry={true}
+                />
+                <Button
+                    style={{marginBottom: 24}}
+                    label="로그인"
+                    onPress={() => {
+                        login('dev.yakuza@gmail.com','password');
+                    }}
                 />
                 <PasswordReset
                     onPress={() => {

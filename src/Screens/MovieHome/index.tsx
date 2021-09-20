@@ -16,7 +16,8 @@ const Container = Styled.ScrollView`
 const StyleButton = Styled.TouchableOpacity`
     padding: 8px;
 `;
-
+const Icon = Styled.Image`
+`;
 
 type NavigationProp = StackNavigationProp<MovieNaviParamList, 'MovieHome'>;
 interface Props{

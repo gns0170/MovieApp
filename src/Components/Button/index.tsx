@@ -1,7 +1,7 @@
 import React from "react";
 import Styled from "styled-components/native";
 
-const StyleBotton = Styled.TouchableOpacity`
+const StyleButton = Styled.TouchableOpacity`
     width: 100%;
     height: 40px;
     border-radius: 4px;
@@ -22,9 +22,9 @@ interface Props {
 
 const Button = ({ label, style, onPress }: Props) => {
     return (
-        <StyleBotton style={style} onPress={onPress}>
+        <StyleButton style={style} onPress={onPress}>
             <Label>{label}</Label>
-        </StyleBotton>
+        </StyleButton>
     );
 };
 

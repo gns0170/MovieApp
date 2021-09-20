@@ -1,12 +1,8 @@
 <resources>
-
-<<<<<<< HEAD
-=======
     <style name="SplashScreenTheme" parent="SplashScreen_SplashTheme">
         <item name="colorPrimaryDark">@color/splashprimary</item>
     </style>
 
->>>>>>> ebf4811d99c2a0fc039613cf6ab388f50adf3569
     <!-- Base application theme. -->
     <style name="AppTheme" parent="Theme.AppCompat.DayNight.NoActionBar">
         <!-- Customize your theme here. -->
