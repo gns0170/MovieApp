@@ -38,7 +38,11 @@
 	<key>NSLocationWhenInUseUsageDescription</key>
 	<string></string>
 	<key>UILaunchStoryboardName</key>
+<<<<<<< HEAD
 	<string>LaunchScreen</string>
+=======
+	<string>SplashScreen</string>
+>>>>>>> ebf4811d99c2a0fc039613cf6ab388f50adf3569
 	<key>UIRequiredDeviceCapabilities</key>
 	<array>
 		<string>armv7</string>
