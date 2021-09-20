@@ -17,6 +17,8 @@ const StyleButton = Styled.TouchableOpacity`
     padding: 8px;
 `;
 const Icon = Styled.Image`
+    width: 54px;
+    height: 24px;
 `;
 
 type NavigationProp = StackNavigationProp<MovieNaviParamList, 'MovieHome'>;
@@ -36,7 +38,6 @@ const MovieHome = ({navigation}: Props) => {
                     }}>
                         <Icon 
                             source={require(`~/Assets/Images/ic_logout.png`)}
-                            resizeMode="cover"
                         />
                 </StyleButton>
             ),
